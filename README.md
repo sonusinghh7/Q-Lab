@@ -1,21 +1,75 @@
-HEAD
-# Q-Lab
-This React application is an interactive visual simulator that teaches the logic of reversing a number (QBasic-style) in a very simple, step-by-step way
+# Q-Lab(Beta version)
+Q-Lab Logic Visualizer
 
-# React + Vite
+Q-Lab is an interactive **React-based learning application** built to help beginners understand **programming logic step by step** using visual execution and very simple English explanations.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+At present, Q-Lab demonstrates the **Reverse Number algorithm** (QBasic-style logic), where users can clearly see how each line of code works and how variables change during execution.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- 🔢 Step-by-step execution of logic  
+- 🧠 Very easy English explanation for every line  
+- ▶️ Manual controls: Next & Previous step  
+- ⏯️ Auto Play / Pause mode  
+- 🎯 Real-time variable tracking (`n`, `rem`, `rev`)  
+- ✨ Active variable & code line highlighting  
+- 📜 Session history of solved numbers  
+- 🎨 Clean, modern UI with smooth animations  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧩 Logic Covered (Current Version)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-3b0d674 (Initial commit - React app)
+- Input handling  
+- WHILE loop working  
+- MOD (`%`) operator logic  
+- Integer division  
+- Step-by-step dry run concept  
+
+This project is ideal for:
+- School students  
+- College beginners  
+- Anyone learning loops & basic algorithms  
+
+---
+
+## 🛠️ Tech Stack
+
+- **React**
+- **JavaScript**
+- **Tailwind CSS**
+- **Lucide Icons**
+
+---
+
+🔮 Future Updates (Planned)
+
+Q-Lab is planned to become a complete logic learning lab.
+
+In future updates, this project will include almost all major logical features, such as:
+
+🔁 Number programs (Palindrome, Factorial, Fibonacci, Prime check)
+
+🧮 Conditional logic visualizers
+
+🔂 Nested loop explanations
+
+📊 Array & String logic
+
+🧠 Dry-run mode for every algorithm
+
+🎓 Beginner to advanced logic concepts
+
+👉 Almost all core programming logic features will be added in upcoming versions.
+
+## 🚀 Getting Started
+
+Clone the repository and run the project locally:
+
+```bash
+git clone https://github.com/sonusinghh7/Q-Lab.git
+cd Q-Lab
+npm install
+npm run dev
